@@ -1,11 +1,11 @@
-import { useState } from "react";
+import {useState} from "react";
 import Layout from "../components/Layout";
 import Reveal from "../components/Reveal";
 
-export default function Contact() {
-  const [sent, setSent] = useState(false);
+export default function Contact(){
+  const [sent,setSent]=useState(false);
 
-  const submit = (e) => {
+  const submit=e=>{
     e.preventDefault();
     setSent(true);
   };
@@ -29,7 +29,6 @@ export default function Contact() {
       <section className="contact-section">
 
         <Reveal>
-
           <div className="contact-copy">
 
             <span className="eyebrow">
@@ -41,34 +40,30 @@ export default function Contact() {
             </h2>
 
             <p>
-              Contact us by email or use the enquiry form.
-              Tell us about your solar, CCTV or electrical
-              requirement and our team can get back to you.
+              Call or WhatsApp directly, or use the enquiry form.
+              The form is ready for connection to an email, CRM or database.
             </p>
-
 
             <div className="contact-box">
 
-              <a href="mailto:arambhsuntechsoln@gmail.com">
-                ✉️
-                <b>Email</b>
-                <span>
-                  arambhsuntechsoln@gmail.com
-                </span>
+              <a href="https://wa.me/918850050126">
+                💬 <b>WhatsApp</b>
+                <span>+91 88500 50126</span>
               </a>
 
-              <a href="/contact">
-                📝
-                <b>Enquiry</b>
-                <span>
-                  Send your project requirement
-                </span>
+              <a href="tel:+918850050126">
+                📞 <b>Quick Call</b>
+                <span>+91 88500 50126</span>
+              </a>
+
+              <a href="mailto:arambhsuntechsoln@gmail.com">
+                ✉️ <b>Email</b>
+                <span>arambhsuntechsoln@gmail.com</span>
               </a>
 
             </div>
 
           </div>
-
         </Reveal>
 
 
@@ -83,20 +78,16 @@ export default function Contact() {
               Request a quotation
             </h3>
 
-
             <label>
               Name
-
               <input
                 required
                 placeholder="Your name"
               />
             </label>
 
-
             <label>
               Phone
-
               <input
                 required
                 type="tel"
@@ -104,32 +95,19 @@ export default function Contact() {
               />
             </label>
 
-
             <label>
               Service
 
               <select defaultValue="Solar">
-
-                <option>
-                  Solar
-                </option>
-
-                <option>
-                  CCTV
-                </option>
-
-                <option>
-                  Electrical Work
-                </option>
-
+                <option>Solar</option>
+                <option>CCTV</option>
+                <option>Electrical Work</option>
                 <option>
                   Solar + CCTV + Electrical
                 </option>
-
               </select>
 
             </label>
-
 
             <label>
               Requirement
@@ -141,14 +119,12 @@ export default function Contact() {
 
             </label>
 
-
             <button
               className="btn primary"
               type="submit"
             >
               Submit Enquiry
             </button>
-
 
             {sent && (
               <div className="success">
