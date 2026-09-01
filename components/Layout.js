@@ -19,7 +19,7 @@ export default function Layout({children,active=""}){
   <footer className="footer">
    <div><div className="brand"><span className="brand-sun">☀</span><span>Sun</span>Grid</div><p>Solar • CCTV • Electrical solutions</p></div>
    <div className="footer-links"><Link href="/services">Services</Link><Link href="/about">About</Link><Link href="/contact">Contact</Link></div>
-   <div><p>© 2026 SunGrid. All rights reserved.</p><p>Professional solutions for homes, shops & businesses.</p></div>
+   <div><p>© 2026 Aarambh Suntech Solution . All rights reserved.</p><p>Professional solutions for homes, shops & businesses.</p></div>
   </footer>
  </>;
 }
