@@ -1,4 +1,4 @@
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3481443a-61f8-4d09-9129-6a93d6ee8afe" />[README.md](https://github.com/user-attachments/files/31691440/README.md)
+[README.md](https://github.com/user-attachments/files/31691440/README.md)
 # Aarambh Suntech Solution Professional Solar Website — Next.js
 
 Built from the uploaded GraphiKrafts offer for the solar website project.
