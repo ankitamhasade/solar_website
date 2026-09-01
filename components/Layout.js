@@ -42,16 +42,20 @@ export default function Layout({ children, active = "" }) {
           ))}
         </nav>
 
-        <Link className="small-wa" href="/contact">
+        <a className="small-wa" href="/contact">
           Enquiry
-        </Link>
+        </a>
       </header>
 
       {children}
 
-      <Link className="floating-wa" href="/contact" aria-label="Enquiry">
+      <a
+        className="floating-wa"
+        href="/contact"
+        aria-label="Enquiry"
+      >
         💬
-      </Link>
+      </a>
 
       <footer className="footer">
         <div>
@@ -70,8 +74,12 @@ export default function Layout({ children, active = "" }) {
         </div>
 
         <div>
-          <p>© 2026 Aarambh Suntech Solution. All rights reserved.</p>
-          <p>Professional solutions for homes, shops & businesses.</p>
+          <p>
+            © 2026 Aarambh Suntech Solution. All rights reserved.
+          </p>
+          <p>
+            Professional solutions for homes, shops & businesses.
+          </p>
         </div>
       </footer>
     </>
